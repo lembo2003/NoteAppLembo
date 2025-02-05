@@ -1,26 +1,27 @@
 # Diary App Development Plan
 
 ## 1. Database Setup ✅
-- Add Room dependencies
-- Create database entities
-- Create DAOs
-- Setup Database class
+- ✅ Add Room dependencies
+- ✅ Create database entities
+- ✅ Create DAOs
+- ✅ Setup Database class
 
-## 2. Repository Layer
-- Create DiaryRepository
-- Create ImageRepository
-- Create LanguageRepository
-- Implement repository methods
-- Add dependency injection
+## 2. Repository Layer ✅
+- ✅ Create DiaryRepository
+- ✅ Create ImageRepository
+- ✅ Create LanguageRepository
+- ✅ Implement repository methods
+- ✅ Add dependency injection (Hilt)
 
-## 3. ViewModel Layer
-- Create DiaryViewModel
-- Create state classes
-- Implement CRUD operations
-- Handle image operations
-- Manage language preferences
+## 3. ViewModel Layer ✅
+- ✅ Create DiaryViewModel
+- ✅ Create state classes (DiaryState)
+- ✅ Create event classes (DiaryEvent)
+- ✅ Implement CRUD operations
+- ✅ Handle image operations
+- ✅ Manage language preferences
 
-## 4. UI Layer
+## 4. UI Layer ⏳
 - Setup Navigation
 - Implement Screens:
   - Splash Screen
@@ -56,7 +57,10 @@
 - ✅ Room dependencies added
 - ✅ DAOs implemented
 - ✅ Database class setup
-- ⏳ Repository layer (Next step)
+- ✅ Repository layer completed
+- ✅ Dependency injection setup
+- ✅ ViewModel layer completed
+- ⏳ UI Layer (Next step)
 
 ## Notes
 - Each step should be completed with testing before moving to the next
